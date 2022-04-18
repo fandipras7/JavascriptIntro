@@ -11,7 +11,7 @@ mengembalikan nilai boolean
 // /*
 // 2. Fungsi isNaN() menentukan apakah suatu nilai adalah NotAnumber atau tidak
 // */
-// const angka = 12.2;
+// const angka = '1234';
 // console.log(isNaN(angka));
 
 // /*
@@ -26,10 +26,10 @@ mengembalikan nilai boolean
 
 // // 5. Reduce
 // const array1 = [1, 2, 3, 4]; // 0 + 1 + 2 + 3 + 4
-// const initialValue = 12;
+// const nilaiAwal = 12;
 // const hasil = array1.reduce(
-//     (previousValue, currentValue) => previousValue + currentValue,
-//     initialValue
+//     (total, nilaI) => total + nilaI,
+//     nilaiAwal
 // );
 
 // console.log(hasil);
@@ -53,7 +53,7 @@ mengembalikan nilai boolean
 //     },
 //     {
 //         name: 'Siswa 4',
-//         age: 15,
+//         age: 17,
 //     },
 // ]
 
