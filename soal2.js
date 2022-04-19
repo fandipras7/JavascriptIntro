@@ -21,13 +21,16 @@ const searchName = function(key, n, callback) {
             console.log(`nama dengan key: '${key}' hanya ada ${hasilSearch.length}`);
         }
     } else {
-        console.log('Input Salah cek kembali input yang anda masukan');
-        return;
+        hasilSearch = 'Input Salah';
     }
 
     callback(hasilSearch);
 }
 
-searchName('car',4, (result) => {
-  console.log(result);
+searchName('andri', 4, (result) => {
+    console.log(result);
+});
+
+searchName('an', 6, (result) => {
+    console.log(result);
 });
